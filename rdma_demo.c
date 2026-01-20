@@ -8,7 +8,7 @@
 #define PORT 1
 #define GID_INDEX 1 // Soft-RoCE 通常使用 Index 1 (IPv4)
 
-// 交换信息的结构体 (用于人工复制粘贴)
+// 交换信息的结构体
 struct QPInfo {
     uint32_t qp_num;
     uint16_t lid;
